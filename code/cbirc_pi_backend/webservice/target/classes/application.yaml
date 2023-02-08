@@ -1,0 +1,22 @@
+server:
+  port: 8001
+
+# mybatis配置
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+#  spring配置
+spring:
+  application:
+    name: springcloud-provider-dept
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.97.124.144:3306/cbirc?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: cbirc
+    password: Cbirc123.
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update

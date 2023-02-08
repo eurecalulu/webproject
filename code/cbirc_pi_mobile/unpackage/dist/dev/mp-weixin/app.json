@@ -1,0 +1,36 @@
+{
+    "pages": [
+        "pages/Self/Self",
+        "pages/PIList/PIList",
+        "pages/PIDetail/PIDetail"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "银保监会政策解读库",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#8a8a8a",
+        "selectedColor": "#00aa00",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/PIList/PIList",
+                "text": "首页",
+                "iconPath": "static/c1.png",
+                "selectedIconPath": "static/c2.png"
+            },
+            {
+                "pagePath": "pages/Self/Self",
+                "text": "个人",
+                "iconPath": "static/c3.png",
+                "selectedIconPath": "static/c4.png"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}

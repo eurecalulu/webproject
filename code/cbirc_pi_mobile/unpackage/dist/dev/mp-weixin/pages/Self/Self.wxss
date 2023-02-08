@@ -1,0 +1,17 @@
+.self-container {
+  height: 100%;
+}
+.self-container .self-input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.self-container .self-input-box .self-input-box-item {
+  margin-top: 20px;
+  width: 80%;
+}
+.self-container .self-input-box .btn-box {
+  width: 40%;
+}
+

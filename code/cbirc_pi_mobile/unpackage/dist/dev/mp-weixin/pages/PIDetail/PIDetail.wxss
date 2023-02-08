@@ -1,0 +1,21 @@
+.PI-detail-container {
+  padding: 20px;
+}
+.PI-detail-container .PI-detail-name {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+.PI-detail-container .PI-detail-info {
+  margin-top: 20px;
+  text-align: center;
+}
+.PI-detail-container .PI-detail-body {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 32px;
+}
+.PI-detail-container .PI-detail-body .PI-detail-body-paragraph {
+  text-indent: 32px;
+}
+

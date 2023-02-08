@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "银保监会政策解读库",
+  "usingComponents": {
+    "u-input": "/uni_modules/uview-ui/components/u-input/u-input",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon"
+  }
+}

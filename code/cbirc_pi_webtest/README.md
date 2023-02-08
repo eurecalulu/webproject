@@ -1,0 +1,3 @@
+# cbirc_pi_webtest
+
+采用selenium对网站进行功能性测试

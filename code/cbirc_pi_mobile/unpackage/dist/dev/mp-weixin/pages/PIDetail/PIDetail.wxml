@@ -1,0 +1,1 @@
+<view class="PI-detail-container"><view class="PI-detail-name">{{''+detail.interpretTitle+''}}</view><view class="PI-detail-info">{{''+detail.user+"   "+detail.time+''}}</view><view class="PI-detail-body"><block wx:for="{{detail.body}}" wx:for-item="paragraph" wx:for-index="__i0__"><view class="PI-detail-body-paragraph">{{paragraph}}</view></block></view></view>

@@ -1,0 +1,35 @@
+server:
+  port: 8002
+
+# mybatis配置
+#mybatis:
+#  configuration:
+#    map-underscore-to-camel-case: true
+#    print sql for debug
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+#  spring配置
+spring:
+  application:
+    name: springcloud-provider-dept
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://39.97.124.144:3306/cbirc?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    url: jdbc:mysql://localhost:3306/cbirc?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+    dbcp2:
+      　　min-idle: 2         #数据库连接池的最小维持连接数
+      　　initial-size: 2     #初始化提供的连接数
+      　　max-total: 2          #最大的连接数
+      　　max-wait-millis: 200        #等待连接获取的最大超时时间
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  liquibase:
+    change-log: classpath:liquibase/master.xml
+    # changelog是LiquiBase用来记录数据库的变更，一般放在CLASSPATH下，然后配置到执行路径中。
